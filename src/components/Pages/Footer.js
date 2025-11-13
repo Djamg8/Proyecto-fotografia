@@ -6,7 +6,7 @@ const Footer = () => {
     <><Contacts />
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2024 Lenguaje 3. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Todos los derechos reservados.</p>
       </div>
     </footer></>
   );
