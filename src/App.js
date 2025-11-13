@@ -6,8 +6,6 @@ import Contact from './components/Pages/Contact';
 import About from './components/Pages/About';
 import Services from './components/Pages/Services';
 import Settings from './components/Pages/Settings.js';
-import ProtectedRoute from './components/Pages/ProtectedRoute.js';
-import ProtectedPage from './components/Pages/ProtectedPage.js';
 import FAQ from './components/Pages/FAQ.js';
 import ArticleSearch from './components/Pages/ArticleSearch.js';
 import Tutorials from './components/Pages/TutorialsPage.js';
@@ -20,7 +18,6 @@ function App() {
       <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path="/protected" element={<ProtectedRoute><ProtectedPage /></ProtectedRoute>} />
         <Route path="/contact" element={<Contact />} />
         <Route path='/about' element={<About/>} />
         <Route path='/services' element={<Services/>} />
