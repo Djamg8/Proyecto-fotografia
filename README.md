@@ -1,3 +1,5 @@
+The images used in the live preview, including background images, gallery photos and thumbnails, are for demonstration purposes only and are not included in the download package. Placeholder images are provided instead.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
