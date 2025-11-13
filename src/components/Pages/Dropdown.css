@@ -1,0 +1,111 @@
+/* Dropdown.css */
+.dropdown {
+  position: relative; /* Cambiado a relative para que se posicione dentro de la navbar */
+  display: inline-block;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 0; /* Ajusta el menú para que se despliegue desde la esquina derecha */
+  width: 250px;
+  background: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.profile-email {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.search-input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .dropdown {
+    top: 10px;
+    right: 10px; /* Mantén el menú en la esquina en pantallas pequeñas */
+  }
+
+  .dropdown-menu {
+    top: 50px;
+    right: 0;
+    width: 250px;
+  }
+}
+
+/* Media query para pantallas muy pequeñas (ej. móviles) */
+@media (max-width: 480px) {
+  .dropdown {
+    top: 5px;
+    right: 5px;
+  }
+
+  .dropdown-menu {
+    top: 45px;
+    right: 0;
+    width: 95vw; /* El menú ocupa el 95% del ancho de la ventana en móviles */
+    max-width: none;
+    border-radius: 0;
+  }
+}

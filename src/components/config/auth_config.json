@@ -1,0 +1,6 @@
+{
+    "domain": "dev-nmojakpb0pvmzsu3.us.auth0.com",
+    "clientId": "10fmmTlORLaKLE2wrRPHxhnQ56bcCmmA",
+    "redirectUri": "http://localhost:3000/protected"
+  }
+  

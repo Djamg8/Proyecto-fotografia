@@ -1,0 +1,153 @@
+.article-search {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #000000;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  width: 300px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.filter-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #000000;
+  border: 1px solid #444;
+  border-radius: 4px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease;
+  border-color: #fff;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+
+.article-card img {
+  width: 100%;
+  border-bottom: 1px solid #444;
+}
+
+.article-content {
+  padding: 10px;
+}
+
+.article-content h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #fff;
+}
+
+.article-content p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.read-more-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #000000;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.read-more-button:hover {
+  text-decoration: underline;
+}
+
+.article-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 4px;
+  width: 80%;
+  max-height: 80%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  overflow-y: auto; 
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.article-modal h2 {
+  margin-top: 0;
+}
+
+.article-modal .modal-img {
+  width: 100%;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+}
+
+.article-modal p {
+  margin-bottom: 20px;
+}
+
+.article-modal a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.article-modal button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

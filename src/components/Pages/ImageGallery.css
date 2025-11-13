@@ -1,0 +1,108 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.theme-selector, .style-selector {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.theme-selector button, .style-selector button {
+  border-radius: 12px; 
+  margin: 5px; 
+  padding: 10px; 
+  border: 1px solid #fff; 
+  background-color: #000000; 
+  color: #fff;
+  cursor: pointer;
+}
+
+.theme-selector button.active, .style-selector button.active {
+  background-color: #000000;
+}
+
+.theme-selector button:hover, .style-selector button:hover {
+  background: #0056b3;
+}
+
+.modal {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  max-width: 500px;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-custom-title {
+  color: #000; 
+}
+
+.modal-custom-description {
+  color: #555;
+}
+
+.modal-custom-button {
+  border-radius: 12px; 
+  margin: 5px; 
+  padding: 10px; 
+  border: 1px solid #fff; 
+  background-color: #000000; 
+  color: #fff; 
+  cursor: pointer;
+}
+
+.modal-custom-button:hover {
+  background: #0056b3;
+}
+
+.image-description {
+  color: #000000;
+}
+
+.modal img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 28px; 
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 12px; 
+  margin-bottom: 20px;
+  display: inline-block; 
+}
